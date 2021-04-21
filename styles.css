@@ -46,9 +46,15 @@
       margin: 0px 20px 0px 20px;
       background-color: lightblue;
       border-radius: 15px;
-        }
+    }
+  #about-me {
+      padding: 2px 20px;    
+    }
   #portfolio h1{
       display: flex;
       justify-content: center;
       color: midnightblue;
+  }
+  #contact-me p {
+      display: inline-flex;
   }
