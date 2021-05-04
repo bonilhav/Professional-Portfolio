@@ -50,12 +50,10 @@ header {
 
 .intro {
     display: flex; 
+    justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-}
-
-.justify.intro {
-    justify-content: flex-end;
+    
 }
 
 .card-header {
@@ -73,7 +71,9 @@ h1 {
     padding: 7px;
 }
 #foto{
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 75%;
 }
 
 .left-content {
