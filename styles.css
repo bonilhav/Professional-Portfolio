@@ -11,9 +11,7 @@
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0%;
-    display: flex;
-    flex-direction: column;
+    margin: 2%;
     background-color: #dbbfeb;
     background-image: url("https://www.transparenttextures.com/patterns/argyle.png"); 
 }
@@ -22,6 +20,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     background-color: var(--dkpurple);
+    color: var(--wtsmoke);
 }
 
 nav p {
@@ -45,7 +44,7 @@ header {
     color: var(--dkblue);
     Font-size: 30px;
     background-color: var(--ltpurple);
-    margin: 0px 7.5em;
+    margin: 0 7.5em;
 }
 
 .intro {
@@ -53,7 +52,6 @@ header {
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    
 }
 
 .card-header {
@@ -80,13 +78,13 @@ h1 {
     background-color: var(--dkpurple);
     color: var(--wtsmoke);
     padding: 15px;
-    margin: 20px;
+    margin: 2% 2% 2% 0;
     border-radius: 15px;
 }
 
 .center-content {
     padding: 14px 14px;
-    margin: 0px 20px;
+    margin: 2% 2% 2% 0;
     background-color: var(--ltpurple);
     border-radius: 15px;
 }
@@ -111,9 +109,25 @@ h1 {
     line-height: 22px;
     padding: 0 14px;
 }
+
+#webpage-1 img {
+    width: 100%;
+    margin: 2% 2% 2% 0;
+}
+
+.webpages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inline-block {
+    display: inline-block;
+    min-width: 25%;
+    margin: 1px;
+}
+
 #contact-me form {
     margin: auto;
-    box-sizing: auto;
     border-radius: 15px;
     display: block;
     line-height: 30px;
@@ -153,6 +167,7 @@ footer {
 @media screen and (min-width: 768px) {
     .header,
     .left-content,
+    #portimages,
     .center-content {width: 100%}
     .card-header {
         flex: 0 0 50%;
