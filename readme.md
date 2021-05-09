@@ -11,10 +11,12 @@ About Vanessa: "I am Vanessa Bonilha. I was born and raised in Denver, CO. I am 
 
 Vanessa's Projects:
 
-        - Webpage 1 (placeholder)
-        - Webpage 2 (placeholder)
-        - Webpage 3 (placeholder)
-        - Webpage 4 (placeholder)
-        - Webpage 5 (placeholder)
+        - Horiseon webpage
+        - Password Generator
+        - Password Generator (placeholder)
+        - Password Generator (placeholder)
+        - Password Generator (placeholder)
 
 A form input is being used for individuals to contact Vanessa.
+
+<img src="./images/screenshot-portfolio.png"/>
