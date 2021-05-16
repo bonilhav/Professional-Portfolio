@@ -120,6 +120,22 @@ h1 {
     flex-wrap: wrap;
 }
 
+.webpages div{
+    margin: 15px 2px;
+    max-width: 20%;
+}
+
+.password img {
+    height:100%;
+    width: 100%;
+}
+
+
+.Zelda img {
+    height:100%;
+    width: 100%;
+}
+
 .inline-block {
     display: inline-block;
     min-width: 25%;

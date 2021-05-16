@@ -13,7 +13,7 @@ Vanessa's Projects:
 
         - Horiseon webpage
         - Password Generator
-        - Password Generator (placeholder)
+        - Zelda Game Quiz
         - Password Generator (placeholder)
         - Password Generator (placeholder)
 
