@@ -112,13 +112,11 @@ h1 {
 
 #webpage-1 img {
     width: 100%;
-
+    margin: 15px 0
 }
 
 .webpages {
     display: flex;
-    padding: 0
-
 }
 
 .webpages div{
