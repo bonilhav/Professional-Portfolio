@@ -112,17 +112,18 @@ h1 {
 
 #webpage-1 img {
     width: 100%;
-    margin: 2% 2% 2% 0;
+
 }
 
 .webpages {
     display: flex;
-    flex-wrap: wrap;
+    padding: 0
+
 }
 
 .webpages div{
-    margin: 15px 2px;
-    max-width: 20%;
+    margin: 15px 0;
+    max-width: 15%;
 }
 
 .password img {
