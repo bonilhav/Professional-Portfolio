@@ -3,6 +3,7 @@
     --wtsmoke: whitesmoke;
     --dkpurple: rgb(64, 0, 83);
     --ltpurple: rgb(168, 126, 180);
+    --ltgrey: rgb(207, 207, 207);
 }
 
 * {
@@ -10,79 +11,49 @@
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 2%;
+    font-family: 'Mate SC', serif;;
     background-color: #dbbfeb;
     background-image: url("https://www.transparenttextures.com/patterns/argyle.png"); 
 }
 
-nav {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--dkpurple);
-    color: var(--wtsmoke);
+.navbar {
+    background-color: var(--ltgrey);
 }
 
-nav p {
-    display: flex;
-    justify-content: flex-start;
-    color: var(--wtsmoke);
-    padding: 14px;
-    text-decoration: none;
-    text-align: center;
-}
-
-nav a {
-    color: var(--wtsmoke);
-    padding: 14px;
-    text-decoration: none;
-    text-align: center;
+#vb-css {
+    color: var(--dkpurple);
+    font-weight: 600; 
 }
 
 header {
-    padding: 2%;
-    color: var(--dkblue);
-    Font-size: 30px;
     background-color: var(--ltpurple);
-    margin: 0 7.5em;
+    color: var(--dkblue);
+    padding: 2%;
+    border-radius: 0 0 15px 15px;
+    
 }
 
-.intro {
-    display: flex; 
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.card-header {
-    flex: 1 0 100%;
-    padding: 1.5rem;
-    transition: flex-basis 500ms linear;
-}
-#info {
-    font-size: 1.75rem;
-}
-
-h1 {
-    font-size: 2rem;
-    font-family: 'URW Chancery L', 'Apple Chancery', cursive, sans-serif;
-    padding: 7px;
-}
-#foto{
+#name {
     display: flex;
     justify-content: center;
-    width: 75%;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 2%;
 }
 
-.left-content {
-    background-color: var(--dkpurple);
-    color: var(--wtsmoke);
-    padding: 15px;
-    margin: 2% 2% 2% 0;
-    border-radius: 15px;
+#info {
+    color: var(--dkpurple);
+    font-size: 25px;
+    font-weight: 500;
 }
 
-.center-content {
+#prim-know {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* .center-content {
     padding: 14px 14px;
     margin: 2% 2% 2% 0;
     background-color: var(--ltpurple);
@@ -91,48 +62,72 @@ h1 {
 
 .form-control {
     width: auto;
+} */
+
+h1 {
+    font-size: 2rem;
+    font-family: 'URW Chancery L', 'Apple Chancery', cursive, sans-serif;
 }
 
-#about-me p {
+#about-me {
+    background-color: var(--dkpurple);
+    color: var(--wtsmoke);
+    padding: 15px;
+    margin: 2%;
+    border-radius: 15px;
     font-family: Georgia, cursive, sans-serif;
     line-height: 22px;
-    padding: 0 14px;
 }
+
+#portfolio {
+    padding: 15px;
+    margin: 2%;
+    background-color: var(--ltpurple);
+    border-radius: 15px;
+}
+
 #portfolio h1 {
     display: flex;
     justify-content: center;
     color: var(--dkblue);
+    font-size: 2rem;
+    font-weight: 550;
 }
 
 #portfolio div {
-    font-family: Georgia, cursive, sans-serif;
-    line-height: 22px;
-    padding: 0 14px;
+    margin: .5%;
 }
 
-#webpage-1 img {
-    width: 100%;
-    margin: 15px 0
+.webpage{
+    display: flex;
+    justify-content: center;
+
 }
 
 .webpages {
     display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: var(--ltgrey);
 }
 
-.webpages div{
-    margin: 15px 0;
-    max-width: 15%;
+.card-sub {
+    height: 150px;
 }
 
-.demo img {
-    height:100%;
-    width: 100%;
+.card-link {
+    color: var(--dkblue);
+    font-weight: 600;
+    text-decoration: none;
 }
 
-.inline-block {
-    display: inline-block;
-    min-width: 25%;
-    margin: 1px;
+#contact-me {
+    background-color: var(--dkpurple);
+    color: var(--wtsmoke);
+    padding: 15px;
+    margin: 2%;
+    border-radius: 15px;
 }
 
 #contact-me form {
@@ -144,7 +139,7 @@ h1 {
     padding: 0 14px;
 }
 
-.button {
+#button {
     padding: 10px 15px;
     font-size: 15px;
     text-align: center;
@@ -160,25 +155,37 @@ h1 {
     position: fixed;
     bottom: 0;
     right: 10px;
+    padding: .5%;
     z-index: 99;
     width: auto;
     cursor: pointer;
-    background-color: whitesmoke;
-    color: black;
+    background-color: var(--ltgrey);
+    color: var(--dkblue);
+    border-radius: 7px;
     border: none;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 footer {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--dkblue);
+    background-color: var(--ltpurple);
+    padding: 1%;
+    margin-top: 1%;
 }
 
-@media screen and (min-width: 768px) {
-    .header,
-    .left-content,
-    #portimages,
-    .center-content {width: 100%}
-    .card-header {
-        flex: 0 0 50%;
-        max-width: 50%;}
+footer div {
+    padding: .5%;
 }
+
+@media screen and (max-width: 576px) {
+    .webpage {
+        width: 18rem
+    }
+    .webpages {
+      display: block;
+    }
+  }
