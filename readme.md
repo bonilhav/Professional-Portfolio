@@ -13,12 +13,11 @@ About Vanessa: "I am Vanessa Bonilha. I was born and raised in Denver, CO. I am 
 
 Vanessa's Projects:
 
-        - Horiseon webpage
+        - Choose Your Pokemon(project)
         - Password Generator
         - Zelda Game Quiz
         - Day Planner
-        - What's the Weather
-        - Choose Your Pokemon(project)
+        - What's the Weather 
 
 A form input is being used for individuals to contact Vanessa.
 
