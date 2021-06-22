@@ -101,7 +101,6 @@ h1 {
 .webpage{
     display: flex;
     justify-content: center;
-
 }
 
 .webpages {
@@ -113,7 +112,7 @@ h1 {
 }
 
 .card-sub {
-    height: 150px;
+    height: 200px;
 }
 
 .card-link {
