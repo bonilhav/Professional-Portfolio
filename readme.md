@@ -1,17 +1,11 @@
-This webpage is the location for the professional portfolio for Vanessa Bonilha. This webpage will contain information 
-about Vanessa Bonilha. It will also contain links to various projects that Vanessa has completed. A method to contact Vanessa 
-is also incorporated into the webpage. 
+# Professional Portfolio
 
-Challenges for this website include formatting the html with the css. Successes include integrating future projects into the webpage. 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+  ## Description
+  This webpage is the location for the professional portfolio for Vanessa Bonilha. This webpage will contain information about Vanessa Bonilha. It will also contain links to various projects that were completed by Vanesa Bonilha. A method to contact Vanessa is also included. 
 
-About Vanessa: "I am Vanessa Bonilha. I was born and raised in Denver, CO. I am married with two fur babies. My family
-        immigrated from Brazil. I currently hold an American and Brazilian citizenship. I am currently working on
-        obtaining my Portuguese citizenship. My native language is English and I have
-        intermediate fluency in Portuguese. I studied finance for my Bachelor's degree. I have taken some Master's
-        courses in Project Management. I currently work for a retirement financial institution. Previously I worked 
-        in their contact center and currently work as a fraud analyst."
-
-Vanessa's Projects:
+  Vanessa's Projects:
 
         - Choose Your Pokemon(project)
         - Password Generator
@@ -19,8 +13,41 @@ Vanessa's Projects:
         - Day Planner
         - What's the Weather 
 
-A form input is being used for individuals to contact Vanessa.
+  ![Screenshot](./images/screenshot-portfolio.png)
+ (https://bonilhav.github.io/Professional-Portfolio/)
 
-<a href="https://bonilhav.github.io/Professional-Portfolio/">
-<img src="./images/screenshot-portfolio.png"/>
-</a>
+  ## Table of Contents
+
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [License](#license)
+  * [Questions](#questions)
+
+  ## Installation
+
+  Please install the following dependances:
+
+  
+
+  ## Usage
+
+  This site will have links to various projects that have been completed.
+
+  ## Contributing
+
+  Contributions are unavailable at this time.
+
+  ## Tests
+  
+  Tests can be run using the following:
+  No tests have been incorportated at this time
+
+  ## License
+  
+  This is licensed under MIT.
+  
+  ## Questions
+
+  Questions about this repository? Please contact the owner at [bonilhav@gmail.com](mailto:bonilhav@gmail.com). View more work from the owner in GitHub at [bonilhav](https://github.com/bonilhav)
