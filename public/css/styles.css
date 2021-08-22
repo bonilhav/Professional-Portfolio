@@ -1,8 +1,9 @@
 :root {
     --dkblue: midnightblue;
     --wtsmoke: whitesmoke;
-    --dkpurple: rgb(64, 0, 83);
-    --ltpurple: rgb(168, 126, 180);
+    --dkpurple: rgb(33, 2, 42);
+    --ltpurple: rgb(190, 172, 195);
+    --mdgrey: rgb(165, 165, 165);
     --ltgrey: rgb(207, 207, 207);
 }
 
@@ -12,25 +13,18 @@
 
 body {
     font-family: 'Mate SC', serif;;
-    background-color: #dbbfeb;
-    background-image: url("https://www.transparenttextures.com/patterns/argyle.png"); 
+    background-color: #313033;
 }
 
 .navbar {
-    background-color: var(--ltgrey);
+    position: fixed;
+    z-index: 99;
+    background-color: var(--mdgrey);
 }
 
 #vb-css {
     color: var(--dkpurple);
     font-weight: 600; 
-}
-
-header {
-    background-color: var(--ltpurple);
-    color: var(--dkblue);
-    padding: 2%;
-    border-radius: 0 0 15px 15px;
-    
 }
 
 #name {
@@ -53,20 +47,16 @@ header {
     font-weight: 600;
 }
 
-/* .center-content {
-    padding: 14px 14px;
-    margin: 2% 2% 2% 0;
-    background-color: var(--ltpurple);
-    border-radius: 15px;
-}
-
-.form-control {
-    width: auto;
-} */
-
 h1 {
     font-size: 2rem;
-    font-family: 'URW Chancery L', 'Apple Chancery', cursive, sans-serif;
+    font-family: Courgette, 'Apple Chancery', cursive, sans-serif;
+    padding:2px;
+}
+
+h2 {
+    font-size: 1.70rem;
+    font-family: Courgette, 'Apple Chancery', cursive, sans-serif;
+    padding:2px;
 }
 
 #about-me {
@@ -75,8 +65,10 @@ h1 {
     padding: 15px;
     margin: 2%;
     border-radius: 15px;
-    font-family: Georgia, cursive, sans-serif;
+    font-family: Nunito, Georgia, cursive, sans-serif;
     line-height: 22px;
+    font-size: 1.40rem;
+
 }
 
 #portfolio {
@@ -129,28 +121,27 @@ h1 {
     border-radius: 15px;
 }
 
-#contact-me form {
-    margin: auto;
-    border-radius: 15px;
-    display: block;
-    line-height: 30px;
-    font-family: Georgia, cursive, sans-serif;
-    padding: 0 14px;
+.email{
+    color: var(--wtsmoke);
+}
+
+.email:hover{
+    color: var(--ltpurple);
 }
 
 #button {
     padding: 10px 15px;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     cursor: pointer;
     outline: none;
-    color: #fff;
+    color: var(--dkblue);
     background-color: var(--ltpurple);
     border: none;
     border-radius: 15px;
 }
 
-#myBtn {
+#toTopBtn {
     position: fixed;
     bottom: 0;
     right: 10px;

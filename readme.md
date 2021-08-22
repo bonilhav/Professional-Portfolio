@@ -7,13 +7,14 @@
 
   Vanessa's Projects:
 
-        - Choose Your Pokemon(project)
+        - Kitchen Forager(group project)
+        - Choose Your Pokemon(group project)
         - Password Generator
         - Zelda Game Quiz
         - Day Planner
         - What's the Weather 
 
-  ![Screenshot](./images/screenshot-portfolio.png)
+  ![Screenshot](./public/images/professionalPortfolio.png)
  (https://bonilhav.github.io/Professional-Portfolio/)
 
   ## Table of Contents
