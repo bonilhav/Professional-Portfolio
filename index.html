@@ -19,39 +19,31 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg vw-100">
-        <div class="container-fluid">
-            <a class="navbar-brand">
-                <img src="./public/images/logo.png" alt="Vanessa Bonilha Logo" width="30" height="35"
-                    class="d-inline-block align-text-top">
-            </a>
-            <a id="vb-css" class="navbar-brand">Vanessa Bonilha | Full Stack Web Developer</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-text">
-                        <a id="vb-css" class="nav-link" href="#about-me">About Me</a>
-                    </li>
-                    <li class="nav-text">
-                        <a id="vb-css" class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-text">
-                        <a id="vb-css" class="nav-link" href="#contact-me">Contact Me</a>
-                    </li>
-                </ul>
-                <span class="navbar-text mx-3">
-                    <a id="vb-css" class="nav-link" href='/public/images/Bulk Resume.pdf'>Resume</a>
-                </span>
+    <header id="main">
+        <nav class="navbar-transparent navbar navbar-expand-lg p-3">
+            <div class="navbar-collapse collapse" id="basic-navbar-nav">
+                <div class="mr-auto navbar-nav">
+                    <a id="vb-css" href="#about-me" class="nav-link lead nav-link ">About Me</a>
+                    <a id="vb-css" href="#portfolio" class="nav-link lead nav-link">Projects</a>
+                    <a id="vb-css" href="https://docs.google.com/document/d/107o4XcPKe4ItiuXY36L6OPEJEbVAad3qspka_tT0n3M/edit" class="nav-link lead nav-link">Resume</a>
+                </div>
+            </div>
+        </nav>
+        <div 
+            class="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0 jumbotron jumbotron-fluid">
+            <div class="text-center container">
+                <h1 class="display-1">Vanessa Bonilha</h1>
+                <div class="Typist lead typist"> Full Stack Web Developer | Fraud Analyst | Reading Enthusiast | Animal Lover  </div>
+                <div class="p-5"><a class="email p-2" href="https://github.com/bonilhav"
+                        aria-label="Github"><i class="fab fa-github  fa-3x socialicons"></i></a><a
+                        class="email p-2" href="https://www.linkedin.com/in/vanessa-bonilha-95b75197/"
+                        aria-label="My linkedin"><i class="fab fa-linkedin  fa-3x socialicons"></i></a></div>
             </div>
         </div>
-    </nav>
-    <img class='vw-100 vh-100' src="./public/images/coding3.png" alt="Image of Coding" />
+    </header>
     <section id="about-me">
         <div class="d-flex justify-content-center">
-            <img style="width: 16rem" src="./public/images/bonilhaVanessa.png" alt="Image of Vanessa" />
+            <img style="width: 16rem" src="./public/images/bonilhaVanessa.png" alt="Vanessa Bonilha" />
         </div>
         <h1>
             About Me
@@ -80,90 +72,87 @@
         </p>
     </section>
 
-    <section id="portfolio" class="center-content">
-        <h1>
-            Portfolio
-        </h1>
-        <div class="webpage">
-            <div class="card text-center">
-                <img class="card-img-top" src="./public/images/foragerHomepage.png"
-                    alt="Image of Kitchen Forager website" />
-                <div class="card-body">
-                    <a href="https://kitchenforager.herokuapp.com/" class="card-link">Website</a>
-                    <a href="https://github.com/bonilhav/kitchenForager" class="card-link">GitHub</a>
+    <div id="portfolio" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4 pb-5 text-center">Projects</h1>
+            <div class='row'>
+                <div class="col-md-6">
+                    <div class="card shadow-lg mb-5 rounded">
+                        <img class="card-img-top" src="./public/images/foragerHomepage.png"
+                            alt="Kitchen Forager website" />
+                        <div class="card-body text-center">
+                            <a href="https://kitchenforager.herokuapp.com/" class="card-link">Website</a>
+                            <a href="https://github.com/bonilhav/kitchenForager" class="card-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card shadow-lg mb-5 rounded">
+                        <img class="card-img-top" src="./public/images/chooseYourPokemon.png"
+                            alt="Choose Your Pokemon"></img>
+                        <div class="card-body text-center">
+                            <a href="https://bonilhav.github.io/Choose_Your_Pokemon/" class="card-link">Website</a>
+                            <a href="https://github.com/bonilhav/Choose_Your_Pokemon" class="card-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card shadow-lg mb-5 rounded">
+                        <img class="card-img-top card-sub" src="./public/images/zeldaGameQuiz.png"
+                            alt="Zelda Game quiz"></img>
+                        <div class="card-body text-center">
+                            <a href="https://bonilhav.github.io/ZeldaGameQuiz/" class="card-link">Website</a>
+                            <a href="https://github.com/bonilhav/ZeldaGameQuiz" class="card-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card shadow-lg mb-5 rounded">
+                        <img class="card-img-top card-sub" src="./public/images/whatsTheWeather.png"
+                            alt="What's the Weather Dashboard"></img>
+                        <div class="card-body text-center">
+                            <a href="https://bonilhav.github.io/whats_the_weather/" class="card-link">Website</a>
+                            <a href="https://github.com/bonilhav/whats_the_weather" class="card-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card shadow-lg mb-5 rounded">
+                        <img class="card-img-top card-sub" src="./public/images/yourDayPlanner.png"
+                            alt="Your Day Planner"></img>
+                        <div class="card-body text-center">
+                            <a href="https://bonilhav.github.io/Vanessa-s_Day_Planner/" class="card-link">Website</a>
+                            <a href="https://bonilhav.github.io/Vanessa-s_Day_Planner/" class="card-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card shadow-lg mb-5 rounded">
+                        <img class="card-img-top card-sub" src="./public/images/passwordGenerator.png"
+                            alt="Password Generator"></img>
+                        <div class="card-body text-center">
+                            <a href="https://bonilhav.github.io/Password-Generator/" class="card-link">Website</a>
+                            <a href="https://github.com/bonilhav/Password-Generator" class="card-link">GitHub</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="webpages">
-            <div class="mx-auto row row-cols-auto">
-                <div class="card col mx-auto my-2">
-                    <img class="card-img-top card-sub" src="./public/images/chooseYourPokemon.png"
-                        alt="Image of Choose Your Pokemon"></img>
-                    <div class="card-body">
-                        <a href="https://bonilhav.github.io/Choose_Your_Pokemon/" class="card-link">Website</a>
-                        <a href="https://github.com/bonilhav/Choose_Your_Pokemon" class="card-link">GitHub</a>
-                    </div>
-                </div>
-                <div class="card col mx-auto my-2">
-                    <img class="card-img-top card-sub" src="./public/images/zeldaGameQuiz.png"
-                        alt="Image of Zelda Game quiz"></img>
-                    <div class="card-body">
-                        <a href="https://bonilhav.github.io/ZeldaGameQuiz/" class="card-link">Website</a>
-                        <a href="https://github.com/bonilhav/ZeldaGameQuiz" class="card-link">GitHub</a>
-                    </div>
-                </div>
-                <div class="card col mx-auto my-2">
-                    <img class="card-img-top card-sub" src="./public/images/whatsTheWeather.png"
-                        alt="Image of What's the Weather Dashboard"></img>
-                    <div class="card-body">
-                        <a href="https://bonilhav.github.io/whats_the_weather/" class="card-link">Website</a>
-                        <a href="https://github.com/bonilhav/whats_the_weather" class="card-link">GitHub</a>
-                    </div>
-                </div>
-                <div class="card col mx-auto my-2">
-                    <img class="card-img-top card-sub" src="./public/images/yourDayPlanner.png"
-                        alt="Image of Your Day Planner"></img>
-                    <div class="card-body">
-                        <a href="https://bonilhav.github.io/Vanessa-s_Day_Planner/" class="card-link">Website</a>
-                        <a href="https://bonilhav.github.io/Vanessa-s_Day_Planner/" class="card-link">GitHub</a>
-                    </div>
-                </div>
-                <div class="card col mx-auto my-2">
-                    <img class="card-img-top card-sub" src="./public/images/passwordGenerator.png"
-                        alt="Image of Password Generator"></img>
-                    <div class="card-body">
-                        <a href="https://bonilhav.github.io/Password-Generator/" class="card-link">Website</a>
-                        <a href="https://github.com/bonilhav/Password-Generator" class="card-link">GitHub</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    </div>
 
     <footer id="contact-me">
         <h1 class="d-flex justify-content-center">
             Contact Me
         </h1>
-        <div class="d-inline-flex justify-content-center">
+        <div class="d-inline-flex justify-content-center p-2">
             <a class="email" href="mailto:bonilhav@gmail.com">
                 <i class="far fa-envelope"></i>
             </a>
         </div>
-        <div class="d-inline-flex justify-content-center">
-            <a class="email" href='https://www.linkedin.com/in/vanessa-bonilha-95b75197/'>
-                <i class="fab fa-linkedin"></i>
-            </a>
+        <div class="p-2">
+            <a>303-564-1534 | Denver, CO</a>
         </div>
-        <div class="d-inline-flex justify-content-center">
-            <a class="email" href='https://github.com/bonilhav'>
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
-        <div>
-            <a>303-564-1534|Denver, CO</a>
-        </div>
-        <div>
+        <div class="p-2">
             <a>Vanessa Bonilha©2021</a>
         </div>
     </footer>

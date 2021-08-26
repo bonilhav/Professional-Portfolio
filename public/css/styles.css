@@ -16,14 +16,13 @@ body {
     background-color: #313033;
 }
 
-.navbar {
-    position: fixed;
-    z-index: 99;
-    background-color: var(--mdgrey);
+#main {
+    background: rgb(33,2,42);
+    background: linear-gradient(143deg, rgba(33,2,42,1) 23%, rgba(190,172,195,1) 70%, rgba(207,207,207,1) 100%);
 }
 
 #vb-css {
-    color: var(--dkpurple);
+    color: var(--wtsmoke);
     font-weight: 600; 
 }
 
@@ -64,47 +63,21 @@ h2 {
     color: var(--wtsmoke);
     padding: 15px;
     margin: 2%;
-    border-radius: 15px;
     font-family: Nunito, Georgia, cursive, sans-serif;
     line-height: 22px;
     font-size: 1.40rem;
-
 }
 
 #portfolio {
-    padding: 15px;
-    margin: 2%;
-    background-color: var(--ltpurple);
-    border-radius: 15px;
+    background: rgb(33,2,42);
+    background: linear-gradient(143deg, rgba(33,2,42,1) 23%, rgba(190,172,195,1) 70%, rgba(207,207,207,1) 100%);
+    color: var(--wtsmoke);
+    font-size: 1.2rem;
+
 }
 
-#portfolio h1 {
-    display: flex;
-    justify-content: center;
-    color: var(--dkblue);
-    font-size: 2rem;
-    font-weight: 550;
-}
-
-#portfolio div {
-    margin: .5%;
-}
-
-.webpage{
-    display: flex;
-    justify-content: center;
-}
-
-.webpages {
-    display: flex;
-    justify-content: center;
-}
 .card{
     background-color: var(--ltgrey);
-}
-
-.card-sub {
-    height: 200px;
 }
 
 .card-link {
@@ -118,7 +91,6 @@ h2 {
     color: var(--wtsmoke);
     padding: 15px;
     margin: 2%;
-    border-radius: 15px;
 }
 
 .email{
@@ -141,41 +113,10 @@ h2 {
     border-radius: 15px;
 }
 
-#toTopBtn {
-    position: fixed;
-    bottom: 0;
-    right: 10px;
-    padding: .5%;
-    z-index: 99;
-    width: auto;
-    cursor: pointer;
-    background-color: var(--ltgrey);
-    color: var(--dkblue);
-    border-radius: 7px;
-    border: none;
-    font-size: 20px;
-    font-weight: 500;
-}
-
 footer {
     text-align: center;
     font-size: 25px;
     font-weight: 600;
-    color: var(--dkblue);
-    background-color: var(--ltpurple);
     padding: 1%;
     margin-top: 1%;
 }
-
-footer div {
-    padding: .5%;
-}
-
-@media screen and (max-width: 576px) {
-    .webpage {
-        width: 18rem
-    }
-    .webpages {
-      display: block;
-    }
-  }
