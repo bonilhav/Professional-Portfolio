@@ -14,7 +14,7 @@
         - Day Planner
         - What's the Weather 
 
-  ![Screenshot](./public/assets/images/professionalPortfolio.png)
+  ![Screenshot](./assets/images/professionalPortfolio.png)
  (https://bonilhav.github.io/Professional-Portfolio/)
 
   ## Table of Contents
