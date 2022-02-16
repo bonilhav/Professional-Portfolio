@@ -1,0 +1,281 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body,
+html {
+  height: 100%;
+  color: #272727;
+  line-height: 1.8;
+  background: linear-gradient(to right, rgb(162, 145, 218), rgb(33, 2, 42));
+  background-size: cover; }
+
+.u-center-text {
+  text-align: center; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.u-margin-top-big {
+  margin-top: 8rem; }
+
+.u-margin-top-medium {
+  margin-top: 4rem; }
+
+.w3-padding-64 {
+  padding-left: 24;
+  padding-right: 24; }
+
+body {
+  font-family: "Lato", sans-serif; }
+
+.w3-wide {
+  letter-spacing: 10px; }
+
+.button {
+  border: none;
+  display: inline-block;
+  outline: 0;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap; }
+.button:hover {
+  opacity: 0.5;
+  background-color: transparent; }
+
+.bgimg {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.bgimg-1 {
+  background-image: url("../assets/images/denver-skyline.jpg");
+  min-height: 100%; }
+.bgimg-2 {
+    background-image: url("../assets/images/work-from-anywhere.jpg");
+    min-height: 400px; }
+.bgimg-3 {
+    background-image: url("../assets/images/sao-paulo-city.jpg");
+    min-height: 400px; }
+
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+.image-responsive {
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+  border-radius: 300px;
+  z-index: 10;
+  position: relative;
+  width: 100%;
+  height: 90%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.image-responsive__picture {
+  transform: translateX(-7rem) scale(1.4);
+  transition: 0.35s ease;
+  backface-visibility: hidden;
+  background-color: #000;
+}
+.image-responsive img {
+  display: block;
+  position: relative;
+}
+
+.card {
+  max-width: 40rem;
+  min-height: 37rem;
+  margin: 2rem auto;
+  padding-bottom: 2em;
+  background: transparent;
+  position: relative;
+  display: block;
+  position: relative;
+  background: #3a3a3a;
+  border-radius: 6px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+}
+.card__title {
+  margin: 0 auto;
+  color: #eaf2e3;
+  text-align: center;
+  text-transform: capitalize;
+}
+.card__img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  max-width: 100%;
+  margin: 1em auto;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.card__text {
+  margin: 2em 5%;
+  color: rgba(234, 242, 227, 0.8);
+}
+.card__btn {
+  padding: 0.7em 2em;
+  background: radial-gradient(#53b601, rgba(142, 204, 170, 0.479));
+  color: #eaf2e3;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 1em auto 0;
+  border-radius: 2px;
+}
+.card__btn:hover {
+  opacity: 0.8;
+}
+.card__btn > i {
+  transform: translateY(20%);
+}
+
+#myNavbar {
+  background: transparent;
+  margin: 5px;
+  width: 50px;
+  z-index: 100;
+}
+
+#mobileNav {
+  z-index: 10;
+}
+
+#myWork {
+    padding: 50px 0 0 0;
+    font-size: 20px;
+    color: white;
+}
+
+#myWork2 {
+    font-size: 15px;
+    color: white;
+}
+
+.icon {
+  width: 24.2%;
+  padding: 0.6rem;
+  filter: brightness(0) invert(0.6);
+}
+.icon:hover {
+  filter: brightness(1) invert(0);
+}
+
+.text-box {
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden;
+  padding: 0;
+}
+.text-box:hover .text-box__section--content {
+  transition: all 0.25s linear;
+  height: 0rem;
+  overflow: hidden;
+}
+.text-box__section {
+  overflow: hidden;
+  border-bottom: 1px solid;
+}
+.text-box__section--title {
+  font-weight: 700;
+  padding: 1rem;
+  margin: 0;
+}
+.text-box__section--content {
+  transition: all 0.25s linear;
+  height: 0rem;
+}
+.text-box__section:hover .text-box__section--content,
+.text-box__section-default .text-box__section--content {
+  height: 25rem;
+}
+
+.title {
+  background-color: #000;
+  text-align: center;
+  padding: 18px;
+  z-index: 10;
+}
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+.row:not(:last-child) {
+  margin-bottom: 8rem;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row [class^="col-"] {
+  float: left;
+}
+.row [class^="col-"]:not(:last-child) {
+  margin-right: 6rem;
+}
+.row .col-1-of-2 {
+  width: calc((100% - 6rem) / 2);
+}
+.row .col-1-of-3 {
+  width: calc((100% - 2 * 6rem) / 3);
+}
+.row .col-2-of-3 {
+  width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
+}
+.row .col-1-of-4 {
+  width: calc((100% - 3 * 6rem) / 4);
+}
+.row .col-2-of-4 {
+  width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem);
+}
+.row .col-3-of-4 {
+  width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
+}
+
+.bg1 {
+  background-color: #272727;
+  color: white;
+}
+
+.section {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 9vw;
+  transform: skewY(5deg);
+  transform-origin: left;
+}
+
+.profile__section-right {
+  height: 47rem;
+}

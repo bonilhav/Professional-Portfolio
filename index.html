@@ -3,25 +3,15 @@
 <html lang="en">
 
 <head>
+    <title>Vanessa Bonilha's Portfolio</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
-    <title>Vanessa Bonilha's Portfolio</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="public/css/reset.css" />
-    <link rel="stylesheet" href="public/css/styles.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
 </head>
 
 <body>
@@ -48,18 +38,22 @@
                 <i class="fas fa-file fa-2x"></i>
             </a>
         </div>
+        <!-- Mobile View -->
         <div id="mobileNav" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
             <a href="#home" class="w3-bar-item button" onclick="toggleFunction()">HOME</a>
             <a href="#portfolio" class="w3-bar-item button" onclick="toggleFunction()">PORTFOLIO</a>
             <a href="#about" class="w3-bar-item button" onclick="toggleFunction()">ABOUT</a>
             <a href="#contact" class="w3-bar-item button" onclick="toggleFunction()">CONTACT</a>
+            <a href="https://docs.google.com/document/d/1ET3d8wq2aJT3a8vKwoDQ4cGhQVUUsgtOfDO5TVEwGms/edit?usp=sharing" class="w3-bar-item button" onclick="toggleFunction()">RESUME</a>
         </div>
     </div>
     <div class="bgimg bgimg-1 w3-display-container" id="home">
         <div class="w3-display-middle title" style="white-space:nowrap;">
             <span class="w3-center w3-black w3-xlarge w3-wide">
                 <span class="w3-hide-small">HELLO, I'M</span>
-                <span> VANESSA BONILHA.</span>
+                <span> VANESSA</span>
+                <br />
+                <span> BONILHA</span>
                 <br />
                 <span class="w3-hide-small"> FULL STACK WEB DEVELOPER</span>
             </span>
@@ -76,7 +70,7 @@
         <div class="w3-row-padding w3-center w3-section">
             <div class="w3-col m4">
                 <div class="card">
-                    <img class="card__img" src="public/assets/images/adventureTime.png" alt="Adventure Time">
+                    <img class="card__img" src="/assets/images/adventureTime.png" alt="Adventure Time">
                     <h2 class="card__title">Adventure Time</h2>
                     <p class="card__text">Hiking app utilizing Firebase and API calls to allow a user to find, store,
                         and track their favorite hiking trails.</p>
@@ -87,7 +81,7 @@
             </div>
             <div class="w3-col m4">
                 <div class="card">
-                    <img class="card__img" src="public/assets/images/foragerHomepage.png" alt="Kitchen Forager">
+                    <img class="card__img" src="/assets/images/foragerHomepage.png" alt="Kitchen Forager">
                     <h2 class="card__title">Kitchen Forager</h2>
                     <p class="card__text">Full stack app for individuals seeking help with what to cook for dinner.
                         Sometimes you need help deciding
@@ -99,7 +93,7 @@
             </div>
             <div class="w3-col m4">
                 <div class="card">
-                    <img class="card__img" src="public/assets/images/chooseYourPokemon.png"
+                    <img class="card__img" src="/assets/images/chooseYourPokemon.png"
                         alt="Choose Your Pokemon Website">
                     <h2 class="card__title">Choose Your Pokemon</h2>
                     <p class="card__text">Website built to let people catch their favorite Pokemon. Additionally they
@@ -114,7 +108,7 @@
         <div class="w3-row-padding w3-center w3-section">
             <div class="w3-col m4">
                 <div class="card">
-                    <img class="card__img" src="public/assets/images/zeldaGameQuiz.png" alt="Zelda Game Quiz">
+                    <img class="card__img" src="/assets/images/zeldaGameQuiz.png" alt="Zelda Game Quiz">
                     <h2 class="card__title">Zelda Game Quiz</h2>
                     <p class="card__text">This website was built as a game quiz. The topic of the quiz is Zelda.</p>
                     <a class="card__btn" href="https://bonilhav.github.io/ZeldaGameQuiz/" target="_blank"
@@ -125,7 +119,7 @@
             </div>
             <div class="w3-col m4">
                 <div class="card">
-                    <img class="card__img" src="public/assets/images/whatsTheWeather.png" alt="What's the Weather">
+                    <img class="card__img" src="/assets/images/whatsTheWeather.png" alt="What's the Weather">
                     <h2 class="card__title">What's the Weather</h2>
                     <p class="card__text">Website can be used to find current or forecasted weather for a specific
                         location.</p>
@@ -137,7 +131,7 @@
             </div>
             <div class="w3-col m4">
                 <div class="card">
-                    <img class="card__img" src="public/assets/images/yourDayPlanner.png" alt="Your Day Planner">
+                    <img class="card__img" src="/assets/images/yourDayPlanner.png" alt="Your Day Planner">
                     <h2 class="card__title">Your Day Planner</h2>
                     <p class="card__text">The purpose of this project was to give individuals a tool to plan their
                         day with ways to call out future and past tasks.</p>
@@ -151,22 +145,21 @@
     </div>
     <div class="w3-row w3-center bg1 w3-padding-16">
         <div class="w3-third w3-section">
-            <img class="icon" src="public/assets/icons/html.svg">
-            <img class="icon" src="public/assets/icons/css.svg">
-            <img class="icon" src="public/assets/icons/javascript.svg">
-            <img class="icon" src="public/assets/icons/jquery.svg">
+            <img class="icon" src="/assets/icons/html.svg">
+            <img class="icon" src="/assets/icons/css.svg">
+            <img class="icon" src="/assets/icons/javascript.svg">
+            <img class="icon" src="/assets/icons/jquery.svg">
         </div>
         <div class="w3-third w3-section">
-            <img class="icon" src="public/assets/icons/sass.svg">
-            <img class="icon" src="public/assets/icons/react.svg">
-            <img class="icon" src="public/assets/icons/node.svg">
-            <img class="icon" src="public/assets/icons/express.svg">
+            <img class="icon" src="/assets/icons/react.svg">
+            <img class="icon" src="/assets/icons/node.svg">
+            <img class="icon" src="/assets/icons/express.svg">
         </div>
         <div class="w3-third w3-section">
-            <img class="icon" src="public/assets/icons/handlebars.svg">
-            <img class="icon" src="public/assets/icons/mongodb.svg">
-            <img class="icon" src="public/assets/icons/mysql.svg">
-            <img class="icon" src="public/assets/icons/github.svg">
+            <img class="icon" src="/assets/icons/handlebars.svg">
+            <img class="icon" src="/assets/icons/mongodb.svg">
+            <img class="icon" src="/assets/icons/mysql.svg">
+            <img class="icon" src="/assets/icons/github.svg">
         </div>
     </div>
     <!-- Second Parallax Image with About Text -->
@@ -184,7 +177,7 @@
                     <div class="profile__section-left">
                         <div class="image-responsive">
                             <img class="w3-image image-responsive__picture"
-                                src="public/assets/images/BonilhaVanessaBASE2.jpg" alt="Photo of Me" width="500"
+                                src="/assets/images/BonilhaVanessaBASE2.jpg" alt="Photo of Me" width="500"
                                 height="333">
                         </div>
                     </div>
@@ -260,12 +253,12 @@
         <div class="w3-row w3-padding-32 w3-section w3-center">
             <div class="w3-col w3-panel">
                 <div class="w3-large w3-margin-bottom">
-                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Denver, US
+                    <i class="fa fa-map-marker fa-fw w3-hover-text-white w3-xlarge w3-margin-right"></i> Denver, US
                     <br>
-                    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: (303)
+                    <i class="fa fa-phone fa-fw w3-hover-text-white w3-xlarge w3-margin-right"></i> Phone: (303)
                     564-1534
                     <br>
-                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
+                    <i class="fa fa-envelope fa-fw w3-hover-text-white w3-xlarge w3-margin-right"></i> Email:
                     bonilhav@gmail.com
                     <br>
                 </div>
@@ -303,7 +296,7 @@
         <div>Vanessa Bonilha&copy;</div>
     </footer>
 
-    <script type="text/javascript" src="public/js/index.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
     <script src="https://kit.fontawesome.com/bf2e3f60e1.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
 
